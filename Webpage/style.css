@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    border-radius: 1%;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+ul {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    margin-left: 60px;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+}
+ul li a {
+    display: block;
+    font-size: 150%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0 20px;
+}
+ul li a:hover {
+    color: #ff7504;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- Animation -----*/
+
+
+section {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C, #23A6D5, #23d5ab);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 10rem;
+    
+}
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+        
+    }
+    50%{
+        background-position: 100% 50%;
+        
+    }
+    100%{
+        background-position: 0 50%;
+        
+    }
+}
+/*----- Animation -----*/
